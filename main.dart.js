@@ -35970,7 +35970,7 @@ aD(){var s=this,r=s.a.c
 s.d=r.a
 s.e=r.b
 s.b7()},
-R(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=t.c,h=A.a([new A.zD(new A.YJ(k,a),j,j,j,j,B.N,j,!1,j,!0,B.K0,j)],i),g=B.T.gaE(),f=A.Q(g,!0,A.l(g).h("p.E")).length,e=J.a4S(f,t.l7)
+R(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=t.c,h=A.a([new A.zD(new A.YJ(k,a),j,j,j,j,B.N,j,!1,j,!0,B.K_,j)],i),g=B.T.gaE(),f=A.Q(g,!0,A.l(g).h("p.E")).length,e=J.a4S(f,t.l7)
 for(s=0;s<f;++s){g=B.T.gaE()
 g=A.Wu(A.Q(g,!0,A.l(g).h("p.E"))[s],j)
 r=k.d
@@ -36041,7 +36041,7 @@ A.qY.prototype={
 al(){return new A.Gz(B.j)}}
 A.Gz.prototype={
 R(a){var s=null
-return A.aa2(s,A.a4c(A.a7M(A.a([A.a5D(B.K_,new A.a_R(a),s),A.a5D(B.JZ,new A.a_S(this,a),s),A.Wu("Current type choice: "+A.f(this.d)+".",s)],t.c),B.ju,B.Cy),s,s),!1)}}
+return A.aa2(s,A.a4c(A.a7M(A.a([A.a5D(B.JY,new A.a_R(a),s),A.a5D(B.JZ,new A.a_S(this,a),s),A.Wu("Current type choice: "+A.f(this.d)+".",s)],t.c),B.ju,B.Cy),s,s),!1)}}
 A.a_R.prototype={
 $0(){return A.a7v(B.G6,this.a,"Both Side Sheet Example",t.z)},
 $S:0}
@@ -36052,7 +36052,7 @@ while(true)switch(s){case 0:p=q.a
 o=p.d
 n=p
 s=2
-return A.Z(A.a7v(new A.pg(o==null?new A.ei("",A.a([],t.s)):o,null),q.b,"\u9009\u62e9\u79cd\u7c7b",t.Lz),$async$$0)
+return A.Z(A.a7v(new A.pg(o==null?new A.ei("",A.a([],t.s)):o,null),q.b,"Type of position",t.Lz),$async$$0)
 case 2:n.d=b
 if(p.c!=null)p.ap(new A.a_Q())
 return A.S(null,r)}})
@@ -61337,7 +61337,7 @@ A.IY.prototype={}
 A.K6.prototype={}
 A.D5.prototype={
 R(a){var s,r,q,p=null,o={},n=A.acU(a,B.aX,!1)
-o.a=B.JY
+o.a=B.K0
 s=A.a9G(a,B.aX)
 r=s?A.BQ(a):p
 q=A.aa5(n,B.aA,r,B.aP,p,p,p,p,new A.VG(o,this,n))
@@ -66101,7 +66101,7 @@ B.uT=new A.a9(B.fG,!0,!1,!1,!1)
 B.uR=new A.a9(B.fH,!0,!1,!1,!1)
 B.G2=new A.a9(B.cv,!0,!1,!1,!1)
 B.G3=new A.a9(B.cv,!0,!0,!1,!1)
-B.JY=new A.jn("Ripples... / Genesis\n\nCredit: Mike Rutherford & Tony Banks, 1976\nWith: Steve Hackett & Phil Collins\nFrom: A Trick of the Tail\n\n\uff08\u4e0d\u662f\u7ffb\u8bd1\uff0c\u7eaf\u5c5e\u7b2c\u4e00\u5370\u8c61\uff09\n\nBlue girls come in every size\nSome are wise and some otherwise\n\n\u5fe7\u4f24\u7684\u5973\u5b69\u4eec\u5404\u6709\u5404\u7684\u4e0d\u540c\n\u6709\u4e9b\u96be\u8fc7\uff0c\u6709\u4e9b\u611f\u52a8\u8fc7\n\nThey got pretty blue eyes\nFor an hour a man may change\nFor an hour her face looks strange\nLooks strange, looks strange\n\n\u5979\u4eec\u7684\u773c\u775b\u84dd\u84dd\u7684\uff0c\u6c34\u6c6a\u6c6a\u7684\n\u770b\u7740\u770b\u7740\uff0c\u7537\u5b69\u5b50\u7684\u5fc3\u5c31\u53d8\u4e86\n\u770b\u7740\u770b\u7740\uff0c\u5979\u7684\u8138\u5c31\u53d8\u5316\u4e86\n\nMarching to the promised land\nWhere the honey flows\nAnd takes you by the hand\n\n\u4ed6\u4eec\u624b\u7275\u624b\uff0c\u53bb\u5411\u90a3\u6d41\u7740\u871c\u7684\u5e94\u8bb8\u4e4b\u5730\n\nPulls you down on your knees\nWhile you're down a pool appears\nThe face in the water looks up\n\n\u534a\u9014\u5979\u6454\u4e86\u4e2a\u8ddf\u5934\uff0c\u770b\u5230\u4e86\u6e56\u4e2d\uff0c\u5979\u8138\u5e9e\u7684\u5012\u5f71\n\nAnd she shakes her head as if to say\nThat it's the last time you'll look like today\n\n\u5979\u6447\u7740\u5934\uff0c\u597d\u50cf\u5728\u8bf4\n\u8fd9\u662f\u5979\u4eca\u751f\u4eca\u4e16\uff0c\u6700\u540e\u4e00\u6b21\u7f8e\u4e3d\u7684\u77ac\u95f4\u4e86\n\n[Chorus]\nSail away, away\nRipples never come back\nGone to the other side\nSail away, away\n\n\u6e56\u7554\u6d9f\u6f2a\u9635\u9635\uff0c\u518d\u4e5f\u4e0d\u4f1a\u56de\u6765\n\u4ed6\u4eec\u6447\u6446\u7740\uff0c\u6162\u6162\u6ed1\u5411\u4e86\u53e6\u4e00\u4fa7\n\n[Verse 2]\nThe face that launched a thousand ships\nIs sinking fast, that happens you know\n\n\u90a3\u5f20\u7f8e\u4e3d\u7684\u8138\u5e9e\n\u5728\u6c34\u4e2d\u6162\u6162\u5730\u6d88\u5931\n\u6ce8\u91ca\uff1a\u4e00\u5343\u8258\u8239\u4ee3\u8868\u5e0c\u814a\u795e\u8bdd\u4e2d\u6d77\u4f26\u7684\u7f8e\u8c8c\u5bfc\u81f4\u7684\u7279\u6d1b\u4f0a\u6218\u4e89\n\nThe water gets below, seems not very long ago\nLovelier she was than any that I know\n\n\u5979\u5728\u6e56\u4e2d\u7684\u5012\u5f71\uff0c\u597d\u50cf\u53c8\u53ef\u7231\u4e86\u4e9b\n\nAngels never know it's time\nTo close the book\nAnd gracefully decline\n\n\u5979\u4eec\u8c8c\u4f3c\u6c38\u8fdc\u4e0d\u77e5\u4ec0\u4e48\u65f6\u5019\n\u5408\u4e0a\u4e66\uff0c\u6162\u6162\u9000\u53bb\n\nThe song has found a tale\nMy, what a jealous pool is she\n\n\u5929\u5450\uff0c\u5979\u7684\u7f8e\u8c8c\u8fde\u6e56\u6cca\u90fd\u5ac9\u5992\u4e0d\u5df2\n\nThe face in the water looks up\nShe shakes her head as if to say\nThat the blue girls have all gone away\n\n\u6c34\u4e2d\u7684\u5012\u5f71\u660e\u6670\u4e86\u8d77\u6765\n\u5979\u6447\u7740\u5934\uff0c\u597d\u50cf\u5728\u8bf4\n\u5979\u4eca\u5929\u518d\u4e5f\u4e0d\u4f1a\u4f24\u5fc3\u4e86\n\n[Extended Chorus]\nSail away, away\nRipples never come back\nThey've gone to the other side\n\n\u6e56\u7554\u6d9f\u6f2a\u9635\u9635\uff0c\u518d\u4e5f\u4e0d\u4f1a\u56de\u6765\n\u5979\u4eec\u6447\u6446\u7740\uff0c\u6162\u6162\u6ed1\u5411\u4e86\u53e6\u4e00\u4fa7\n\nLook into the pool, ripples never come back\nDive to the bottom and go to the top\nTo see where they have gone\nThey've gone to the other side\n\n\u770b\u7740\u6e56\u4e2d\u7684\u6d9f\u6f2a\uff0c\u5979\u4eec\u4e0d\u4f1a\u518d\u56de\u6765\n\u6211\u6f5c\u5165\u6e56\u4e2d\uff0c\u53c8\u6d6e\u4e0a\u6765\uff0c\u60f3\u8ffd\u4e0a\u5979\u4eec\u7684\u75d5\u8ff9\n\u5979\u4eec\u5df2\u7ecf\u5230\u8fbe\u4e86\u5bf9\u5cb8\n",null,null,null,null)
+B.K0=new A.jn("Ripples... / Genesis\n\nCredit: Mike Rutherford & Tony Banks, 1976\nWith: Steve Hackett & Phil Collins\nFrom: A Trick of the Tail\n\nBlue girls come in every size\nSome are wise and some otherwise\n\nThey got pretty blue eyes\nFor an hour a man may change\nFor an hour her face looks strange\nLooks strange, looks strange\n\nMarching to the promised land\nWhere the honey flows\nAnd takes you by the hand\n\nPulls you down on your knees\nWhile you're down a pool appears\nThe face in the water looks up\n\nAnd she shakes her head as if to say\nThat it's the last time you'll look like today\n\n[Chorus]\nSail away, away\nRipples never come back\nGone to the other side\nSail away, away\n\n[Verse 2]\nThe face that launched a thousand ships\nIs sinking fast, that happens you know\n\nThe water gets below, seems not very long ago\nLovelier she was than any that I know\n\nAngels never know it's time\nTo close the book\nAnd gracefully decline\n\nThe song has found a tale\nMy, what a jealous pool is she\n\nThe face in the water looks up\nShe shakes her head as if to say\nThat the blue girls have all gone away\n\n[Extended Chorus]\nSail away, away\nRipples never come back\nThey've gone to the other side\n\nLook into the pool, ripples never come back\nDive to the bottom and go to the top\nTo see where they have gone\nThey've gone to the other side\n",null,null,null,null)
 B.G6=new A.D5(null)
 B.G7=new A.P(1e5,1e5)
 B.G8=new A.P(18,18)
@@ -66370,9 +66370,9 @@ B.Je=new A.r(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.J6=new A.r(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelMedium",null,null,null,null)
 B.IN=new A.r(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.JX=new A.d1(B.IA,B.JF,B.Jo,B.Hp,B.Jh,B.Iy,B.JI,B.HR,B.Ig,B.Ja,B.Hh,B.Jq,B.Je,B.J6,B.IN)
-B.JZ=new A.jn("\u804c\u4f4d\u7c7b\u578b",null,null,null,null)
-B.K_=new A.jn("Sad ballad",null,null,null,null)
-B.K0=new A.jn("Submit!",null,null,null,null)
+B.JY=new A.jn("Sad ballad",null,null,null,null)
+B.JZ=new A.jn("Change the type of position",null,null,null,null)
+B.K_=new A.jn("Submit!",null,null,null,null)
 B.K1=new A.ug(null)
 B.et=new A.DF(0,"clamp")
 B.hS=new A.DF(3,"decal")
