@@ -1,7 +1,7 @@
 name: both_side_sheet
 description: "A pop up which can transfer between Bottom Sheets and Side Sheets from divider."
 version: 1.0.0
-homepage: 
+repository: https://github.com/BenderBlog/both_side_sheet
 
 environment:
   sdk: '>=3.3.2 <4.0.0'
