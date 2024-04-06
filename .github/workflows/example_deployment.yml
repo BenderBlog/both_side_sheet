@@ -25,7 +25,9 @@ jobs:
         channel: stable
         
     - name: Build for web 
-      run: flutter build web --release
+      run: |
+        cd example
+        flutter build web --release
 
     - name: Copy to public
       run: |
