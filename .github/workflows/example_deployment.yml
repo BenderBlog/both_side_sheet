@@ -27,7 +27,7 @@ jobs:
     - name: Build for web 
       run: |
         cd example
-        flutter build web --release
+        flutter build web --release --base-href="/both_side_sheet/"
 
     - name: Copy to public
       run: |
