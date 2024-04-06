@@ -31,7 +31,7 @@ jobs:
 
     - name: Copy to public
       run: |
-        cp example/build/web/* public/
+        cp -r example/build/web/* public/
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v4
