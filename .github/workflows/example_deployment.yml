@@ -1,0 +1,38 @@
+name: message-depoly
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        ref: main
+        path: ./
+
+    - name: Mkdir public
+      run: mkdir public
+
+    - name: Set up Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        channel: stable
+        
+    - name: Build for web 
+      run: flutter build web --release
+
+    - name: Copy to public
+      run: |
+        cp build/web/* public/
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v4
+      with:
+        BRANCH: depoly
+        FOLDER: public
