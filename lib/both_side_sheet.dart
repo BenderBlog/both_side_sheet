@@ -33,7 +33,6 @@ class BothSideSheet extends StatefulWidget {
             child: child,
           );
         },
-        useRootNavigator: false,
         barrierLabel: title,
         transitionBuilder: (context, animation, secondaryAnimation, child) {
           return SlideTransition(
